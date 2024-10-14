@@ -1,2 +1,5 @@
+# Automatically normalize line endings for all text files
 * text=auto
-gradlew eol=lf
+
+# Ensure gradlew has LF line endings
+gradlew text eol=lf
