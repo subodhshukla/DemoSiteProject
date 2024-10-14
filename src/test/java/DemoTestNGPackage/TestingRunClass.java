@@ -74,10 +74,10 @@ public class TestingRunClass {
         hp.navigateToManualMenu();
         Thread.sleep(5000);
     }*/
-    @AfterTest
+    /*@AfterTest
     public void closeBrowser () {
         hp.closeWebDriver();
-    }
+    }*/
 
 
 
