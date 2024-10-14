@@ -2,4 +2,4 @@
 * text=auto
 
 # Ensure gradlew has LF line endings
-gradlew text eol=lf
+gradlew eol=lf
