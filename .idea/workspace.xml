@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="225dc3f6-69e0-4cc6-bf3e-a413dde72997" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="97" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DemoSiteProject" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DemoSiteProject" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2mndPUPXdZvakUmrumOLgtIpfoV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunManager" selected="TestNG.D:/subodh/subodh_Spar/Automation/DemoSiteProject/src/test/java/DemoTestNGPackage/TestNG.xml">
+    <configuration name="DemoSiteProject [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DemoSiteProject" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../../PracticeProject2" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="" />
+      <setting name="debug" value="false" />
+      <setting name="alternativeJrePathEnabled" value="true" />
+      <setting name="alternativeJrePath" value="C:/Program Files (x86)/Java/jdk-21.0.4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/subodh/subodh_Spar/Automation/DemoSiteProject/src/test/java/DemoTestNGPackage/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoSiteProject.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/DemoTestNGPackage/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <alternative-path path="C:/Program Files (x86)/Java/jdk-21.0.4" alternative-path-enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.DemoSiteProject" />
+      <item itemvalue="Gradle.DemoSiteProject [build]" />
+      <item itemvalue="TestNG.D:/subodh/subodh_Spar/Automation/DemoSiteProject/src/test/java/DemoTestNGPackage/TestNG.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/subodh/subodh_Spar/Automation/DemoSiteProject/src/test/java/DemoTestNGPackage/TestNG.xml" />
+        <item itemvalue="Gradle.DemoSiteProject [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="225dc3f6-69e0-4cc6-bf3e-a413dde72997" name="Default Changelist" comment="" />
+      <created>1727716249553</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727716249553</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="68" key="#Inspections" timestamp="1727769875531">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="361" y="68" key="#Inspections/0.0.1536.816@0.0.1536.816" timestamp="1727769875531" />
+    <state x="361" y="68" key="#Plugins" timestamp="1727768487272">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="361" y="68" key="#Plugins/0.0.1536.816@0.0.1536.816" timestamp="1727768487272" />
+    <state x="361" y="68" key="#Project_Structure" timestamp="1727719294092">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="361" y="68" key="#Project_Structure/0.0.1536.816@0.0.1536.816" timestamp="1727719294092" />
+    <state x="223" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1727721520210">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="223" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1727721520210" />
+    <state x="546" y="85" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1727780945420">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="546" y="85" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.816@0.0.1536.816" timestamp="1727780945420" />
+    <state x="548" y="164" key="FileChooserDialogImpl" timestamp="1727768138402">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="548" y="164" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1727768138402" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1728585178274">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1728585178274" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1728585178274">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1728585178274" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1728585178274">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1728585178274" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1728585178274">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1728585178274" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1727782448495">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1727782448495" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1728889378081">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1728889378081" />
+    <state x="526" y="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1727780930153">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="526" y="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.816@0.0.1536.816" timestamp="1727780930153" />
+    <state x="425" y="185" width="672" height="677" key="run.anything.popup" timestamp="1727721253109">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="425" y="185" width="672" height="677" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1727721253109" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DemoSiteProject$D__subodh_subodh_Spar_Automation_DemoSiteProject_src_test_java_DemoTestNGPackage_TestNG_xml.ic" NAME="$PROJECT_DIR$/src/test/java/DemoTestNGPackage/TestNG.xml Coverage Results" MODIFIED="1728496516163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

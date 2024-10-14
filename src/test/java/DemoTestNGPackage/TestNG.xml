@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2"  name="MyTestSuite">
+    <parameter name="Browsername" value="Chrome"></parameter>
+    <!--<listeners>
+        <listener class-name="DemoClassPackage.TestNGListener"></listener>
+    </listeners>-->
+    <test name="MyTest">
+        <classes>
+            <class name="DemoTestNGPackage.TestingRunClass"/>
+           <!-- <class name="DemoTestNGPackage.TestingRunClassManualTab"/>-->
+            <!-- Add more classes if needed -->
+
+        </classes>
+    </test>
+</suite>

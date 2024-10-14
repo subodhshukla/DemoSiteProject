@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DemoTestNGPackage.TestingRunClass" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-10-01T08:07:34" hostname="DESKTOP-42KN1G2" time="5.176">
+  <properties/>
+  <testcase name="enterDetails[0](Tester1, #50)" classname="DemoTestNGPackage.TestingRunClass" time="1.376"/>
+  <testcase name="enterDetails[1](Tester2, #45)" classname="DemoTestNGPackage.TestingRunClass" time="1.214"/>
+  <testcase name="enterDetails[2](Tester3, #55)" classname="DemoTestNGPackage.TestingRunClass" time="1.171"/>
+  <testcase name="enterDetails[3](Tester4, #60)" classname="DemoTestNGPackage.TestingRunClass" time="1.206"/>
+  <testcase name="selectYourGenderAndTestingType" classname="DemoTestNGPackage.TestingRunClass" time="0.131"/>
+  <testcase name="manageAlertPupupWindow" classname="DemoTestNGPackage.TestingRunClass" time="0.071"/>
+  <system-out><![CDATA[Page Title :Sample Webpage for Selenium Automation Practice | ArtOfTesting
+This is executed before Class
+]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Oct 01, 2024 1:37:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+</testsuite>
