@@ -1,30 +1,34 @@
-# Use the official Gradle image as the base image
-FROM gradle:8.3-jdk21 AS build
+# Use an official OpenJDK runtime as a parent image
+FROM openjdk:21-slim
 
-# Set the working directory
+# Set the working directory in the container
 WORKDIR /app
 
-# Copy Gradle files
-COPY build.gradle settings.gradle ./
-COPY gradle ./gradle
+# Install wget and unzip
+RUN apt-get update && \
+    apt-get install -y wget unzip && \
+    rm -rf /var/lib/apt/lists/*
 
-# Copy the source code
-COPY src ./src
+# Download and install Gradle 8.3
+RUN wget https://services.gradle.org/distributions/gradle-8.3-bin.zip && \
+    unzip gradle-8.3-bin.zip && \
+    mv gradle-8.3 /opt/gradle && \
+    ln -s /opt/gradle/bin/gradle /usr/bin/gradle && \
+    rm gradle-8.3-bin.zip
 
-# Build the project (this will download dependencies)
-RUN gradle clean build
+# Copy your application code and the gradlew file
+COPY . ./
 
-# Use a lightweight JRE for running the tests
-FROM openjdk:21-jdk-slim
+# Ensure gradlew is executable
+RUN chmod +x gradlew && ls -l gradlew
 
-# Set the working directory
-WORKDIR /app
+# Build the application
+RUN ./gradlew build --no-daemon -x test
 
-# Copy the built artifacts from the build stage
-COPY --from=build /app/build/libs/*.jar app.jar
+# Optionally, you can still run tests if needed after building
+RUN ./gradlew test --scan
 
-# Copy the resources (TestNG XML, properties, Excel file) to the appropriate location
-COPY --from=build /app/src/test/resources /app/resources
+RUN cp -r build/reports/tests/test /app/test-reports
 
 # Command to run TestNG with the TestNG XML
 CMD ["java", "-cp", "app.jar:resources/*", "org.testng.TestNG", "resources/testng.xml"]
